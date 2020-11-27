@@ -47,13 +47,13 @@ class MyApp extends StatelessWidget{
 class RootWidget extends StatefulWidget{
     @override
     _RootWidgetState createState(){
-      _RootWidgetState();
+      return _RootWidgetState();
     }
 }
 
 class _RootWidgetState extends State{
 
-  int count;
+  int count = 0;
 
   void addCart(){
     setState(() {
