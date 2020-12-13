@@ -20,7 +20,7 @@ class CartState extends InheritedWidget{
 
   ///We are creating the context in the root directory so that we can access
   ///the root widget directly and fetch the properties from any of the descendants
-  ///from any widget deep down
+  ///from any widget deep down.
   static CartState of(BuildContext context) {
     return context.dependOnInheritedWidgetOfExactType<CartState>();
   }
